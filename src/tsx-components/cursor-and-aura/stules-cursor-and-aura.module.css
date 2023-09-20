@@ -1,0 +1,25 @@
+/*.cursor, .aura {*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  border-radius: 100%;*/
+/*  user-select: none;*/
+/*  pointer-events: none;*/
+/*  z-index: 999;*/
+/*}*/
+
+/*.cursor {*/
+/*  width: 8px;*/
+/*  height: 8px;*/
+/*  background-color: rgba(255, 255, 255, 0.5);*/
+/*}*/
+
+/*.aura {*/
+/*  transition: 0.5s cubic-bezier(0, -0.03, 0.17, 1.26) transform, 0.2s cubic-bezier(0, -0.03, 0.17, 1.26) opacity;*/
+/*  width: 48px;*/
+/*  height: 48px;*/
+/*  border: 1px solid rgba(255, 255, 255, 0.2);*/
+/*  background-color: rgba(255, 255, 255, 0.027);*/
+/*}*/
+
+/*# sourceMappingURL=stules-cursor-and-aura.module.css.map */

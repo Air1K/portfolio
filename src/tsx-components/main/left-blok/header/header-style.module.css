@@ -1,0 +1,72 @@
+.main > p {
+  max-width: 30rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+.main > nav {
+  display: block;
+}
+.main > nav > nav {
+  display: table;
+}
+.main > nav > nav > a {
+  display: flex;
+  align-items: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.main > nav > nav > a .nav_line, .main > nav > nav > a .nav_text {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+}
+.main > nav > nav > a .nav_text {
+  color: rgb(123, 133, 152);
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+.main > nav > nav > a .nav_line {
+  display: block;
+  --tw-bg-opacity: 1;
+  background-color: rgb(71, 85, 105);
+  width: 2rem;
+  height: 1px;
+  margin-right: 1rem;
+}
+.main > nav > nav > a:hover .nav_text {
+  color: rgb(226, 232, 240) !important;
+}
+.main > nav > nav > a:hover .nav_line {
+  background-color: rgb(226, 232, 240);
+  width: 4rem;
+}
+
+.head, .h2_text {
+  letter-spacing: -0.025em;
+}
+
+.head {
+  font-size: 3.4rem;
+  line-height: 1;
+  font-weight: 800 !important;
+}
+
+.h2_text {
+  font-size: 1.45rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  margin-top: 0.75rem;
+}
+
+.active .nav_text {
+  color: rgb(226, 232, 240) !important;
+}
+.active .nav_line {
+  background-color: rgb(226, 232, 240) !important;
+  width: 4rem !important;
+}
+
+/*# sourceMappingURL=header-style.module.css.map */

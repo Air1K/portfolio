@@ -1,0 +1,11 @@
+.blok {
+  width: 50%;
+  padding: 6rem 0;
+  height: 300vh;
+}
+.blok > section {
+  scroll-margin-top: 6rem;
+  margin-bottom: 9rem;
+}
+
+/*# sourceMappingURL=right-blok-style.module.css.map */
