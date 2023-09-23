@@ -1,6 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styles from './about_window_style.module.scss'
 const AboutWindow = ({nav}: any) => {
+   const [stylesOsu, setStulesOsu] = useState('')
+   function handelHover(){
+      setStulesOsu(styles.hover)
+   }
+   function handelLeave(){
+      setStulesOsu(styles.leave)
+   }
    return (
       <section ref={nav}>
          <div></div> {/* Прилипает */}
@@ -24,7 +31,12 @@ const AboutWindow = ({nav}: any) => {
                к образовательному процессу.
             </p>
             <p>
-               На данный момент работаю над full-stack проектом для своего <a href="">дискорд канала</a> посвещенного игре <a href="">OSU!</a>
+               На данный момент работаю над full-stack проектом для своего <a href="https://discord.gg/xcrfrJ5QsN" className={'hover_a'}>дискорд канала</a> посвещенного игре
+               <a onMouseEnter={handelHover}
+                  onMouseLeave={handelLeave}
+                  className={`${styles.hover_osu} ${stylesOsu}`}
+                  href="https://osu.ppy.sh/">
+               <span className={styles.span_osu_1}>O</span><span className={styles.span_osu_2}>s</span><span className={styles.span_osu_3}>u</span><span className={styles.span_osu_4}>!</span></a>
             </p>
          </div>
       </section>

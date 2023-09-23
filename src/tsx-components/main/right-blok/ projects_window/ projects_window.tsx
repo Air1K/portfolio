@@ -1,8 +1,8 @@
 import React from 'react';
 
-const ProjectsWindow = () => {
+const ProjectsWindow = ({nav}: any) => {
    return (
-      <section>
+      <section ref={nav}>
          <div></div> {/* Прилипает */}
       </section>
    );

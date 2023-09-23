@@ -3,4 +3,57 @@
   line-height: 1.625;
 }
 
+.hover_osu {
+  margin-left: 0.3rem;
+  cursor: url("../../../../img/icons8-osu-96.png"), pointer;
+}
+.hover_osu > span {
+  display: inline-block;
+  position: relative;
+  transition-duration: 75ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover .span_osu_1 {
+  transition-delay: 50ms;
+  transform: translateY(-0.1rem);
+  color: #ff67a8 !important;
+}
+.hover .span_osu_2 {
+  transition-delay: 100ms;
+  transform: translateY(-0.1rem);
+  color: #ff67a8 !important;
+}
+.hover .span_osu_3 {
+  transition-delay: 150ms;
+  transform: translateY(-0.1rem);
+  color: #ff67a8 !important;
+}
+.hover .span_osu_4 {
+  transition-delay: 200ms;
+  transform: translateY(-0.1rem);
+  color: #ff67a8 !important;
+}
+
+.leave .span_osu_4 {
+  transition-delay: 50ms;
+  transform: translateY(0);
+  color: rgb(226, 232, 240) !important;
+}
+.leave .span_osu_3 {
+  transition-delay: 100ms;
+  transform: translateY(0);
+  color: rgb(226, 232, 240) !important;
+}
+.leave .span_osu_2 {
+  transition-delay: 150ms;
+  transform: translateY(0);
+  color: rgb(226, 232, 240) !important;
+}
+.leave .span_osu_1 {
+  transition-delay: 200ms;
+  transform: translateY(0);
+  color: rgb(226, 232, 240) !important;
+}
+
 /*# sourceMappingURL=about_window_style.module.css.map */
