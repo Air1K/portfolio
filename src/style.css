@@ -164,6 +164,9 @@ a {
   .body_ {
     width: 100%;
   }
+  #index::-webkit-scrollbar {
+    width: 4px;
+  }
 }
 @media (max-width: 474px) {
   a {
