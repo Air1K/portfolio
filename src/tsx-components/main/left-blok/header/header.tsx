@@ -7,7 +7,7 @@ const Header = (props: any) => {
          <h1><a href={"#"} className={`${styles.head} text_type_3`}>Веремеенко Максим</a></h1>
          <h2 className={`text_type_3 mb-0 ${styles.h2_text}`}>Frontend developer</h2>
          <p>Как frontend-разработчик, я отвечаю за создание интерактивного и привлекательного пользовательского интерфейса для веб-приложений.</p>
-         <nav className="pt-5 mt-1 w-auto" >
+         <nav className={`pt-5 mt-1 w-auto ${styles.nav_panel}`} >
             <nav className="">
                <a className={`px-0 ${props.active === 0 ? styles.active : ''}`} href="#about" onClick={()=>props.ref_nav_1.current.scrollIntoView({ block: "center", behavior: "smooth" })}><span className={styles.nav_line}/><span className={styles.nav_text}>ОБО МНЕ</span></a>
                <a className={`px-0 ${props.active === 1 ? styles.active : ''}`} href="#skills" onClick={()=>props.ref_nav_2.current.scrollIntoView({ block: "center", behavior: "smooth" })}><span className={styles.nav_line}/><span className={styles.nav_text}>НАВЫКИ</span></a>

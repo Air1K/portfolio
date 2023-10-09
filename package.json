@@ -14,6 +14,9 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-pdf": "^7.5.0",
+    "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
     "sass": "^1.67.0",
     "typescript": "^4.9.5",
@@ -47,6 +50,7 @@
     "@types/css-modules": "^1.0.3",
     "@types/lodash": "^4.14.198",
     "@types/react": "^18.2.21",
-    "@types/react-dom": "^18.2.7"
+    "@types/react-dom": "^18.2.7",
+    "@types/react-router-dom": "^5.3.3"
   }
 }

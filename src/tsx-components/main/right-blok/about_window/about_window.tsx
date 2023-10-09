@@ -10,7 +10,7 @@ const AboutWindow = ({nav}: any) => {
    }
    return (
       <section ref={nav}>
-         <div></div> {/* Прилипает */}
+         <div className={'header_paragraph'}><h2>Обо мне</h2></div> {/* Прилипает */}
          <div className={styles.text}>
             <p>
                Активно изучаю ReactJS имею глубокое

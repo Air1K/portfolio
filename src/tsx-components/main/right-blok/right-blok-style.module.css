@@ -1,11 +1,16 @@
-.blok {
+.block {
   width: 50%;
   padding: 6rem 0;
-  height: 300vh;
 }
-.blok > section {
+.block > section {
   scroll-margin-top: 6rem;
   margin-bottom: 9rem;
+}
+
+@media (max-width: 1024px) {
+  .block > section {
+    margin-bottom: 5rem;
+  }
 }
 
 /*# sourceMappingURL=right-blok-style.module.css.map */

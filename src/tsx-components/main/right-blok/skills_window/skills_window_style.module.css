@@ -9,4 +9,10 @@
   background-color: rgb(15, 23, 42);
 }
 
+@media (max-width: 1024px) {
+  .skills > span {
+    background-color: rgba(29, 78, 216, 0.15);
+  }
+}
+
 /*# sourceMappingURL=skills_window_style.module.css.map */

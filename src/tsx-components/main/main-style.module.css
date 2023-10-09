@@ -2,4 +2,22 @@
   gap: 1rem;
 }
 
+@media (max-width: 1024px) {
+  .main {
+    gap: 0;
+    display: block !important;
+  }
+  .main header, .main main {
+    width: 100%;
+  }
+  .main header {
+    position: relative !important;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    padding: 0 1.8rem;
+  }
+}
+
 /*# sourceMappingURL=main-style.module.css.map */

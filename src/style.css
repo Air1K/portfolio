@@ -13,6 +13,10 @@
   font-family: "myFont";
   src: url("./fonts/dc792b508e6f91c7-s.p.woff2");
 }
+html {
+  font-size: clamp(13px, 2vh, 16px);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -23,6 +27,7 @@ body {
 
 #index {
   overflow-y: scroll;
+  overflow-x: hidden;
   height: 100vh;
 }
 
@@ -43,6 +48,10 @@ body {
 
 .text_type_2 {
   color: rgb(94, 234, 212) !important;
+  background-color: rgba(45, 212, 191, 0.1);
+  font-size: 0.85rem;
+  border-radius: 9999px;
+  white-space: nowrap;
 }
 
 .text_type_3 {
@@ -63,10 +72,15 @@ body {
 }
 
 .body_ {
-  width: 75%;
+  width: 80%;
 }
 .body_ > p > span {
   color: rgb(226, 232, 240) !important;
+}
+
+.size_3 {
+  font-size: 1.1rem;
+  line-height: 1.625;
 }
 
 #index::-webkit-scrollbar-track {
@@ -89,6 +103,7 @@ a {
   text-decoration: none !important;
   color: rgb(226, 232, 240) !important;
   font-size: 1.1rem;
+  white-space: nowrap;
   line-height: 1.625;
 }
 
@@ -108,6 +123,52 @@ a {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 0.15s;
+}
+.transition:before {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+}
+
+.header_paragraph {
+  padding: 1.35rem 4rem;
+  margin-bottom: 1rem;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(8px);
+  background-color: rgba(15, 23, 42, 0.69);
+  margin-left: -4rem;
+  margin-right: -4rem;
+  display: none;
+  z-index: 999;
+}
+.header_paragraph > h2 {
+  color: rgb(226, 232, 240);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  font-size: 0.975rem;
+  line-height: 1.25rem;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .header_paragraph {
+    display: block;
+  }
+}
+@media (max-width: 640px) {
+  .text_type_4_2 {
+    width: 100%;
+  }
+  .body_ {
+    width: 100%;
+  }
+}
+@media (max-width: 474px) {
+  a {
+    white-space: pre-wrap;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

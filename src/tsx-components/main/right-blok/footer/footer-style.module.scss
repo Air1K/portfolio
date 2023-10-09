@@ -1,0 +1,21 @@
+.text{
+  margin: 0 !important;
+  font-size: .975rem;
+  line-height: 1.25rem;
+  color: rgb(100 116 139/1);
+  max-width: 28rem;
+  >p {
+    margin: 0;
+    > a {
+      font-size: .975rem;
+      color: rgb(148 163 184/1) !important;
+      transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+      transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+      transition-duration: .15s;
+
+      &:hover {
+        color: rgb(94 234 212/1) !important;
+      }
+    }
+  }
+}

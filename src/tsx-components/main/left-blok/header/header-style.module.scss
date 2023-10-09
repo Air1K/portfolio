@@ -53,7 +53,8 @@
   }
 }
 .head, .h2_text{
-  letter-spacing: -.025em
+  letter-spacing: -.025em;
+  white-space: pre-wrap;
 }
 .head{
   font-size: 3.4rem;
@@ -75,5 +76,10 @@
   .nav_line {
     background-color: rgb(226 232 240/1) !important;
     width: 4rem !important;
+  }
+}
+@media (max-width: 1024px){
+  .nav_panel{
+    display: none!important;
   }
 }

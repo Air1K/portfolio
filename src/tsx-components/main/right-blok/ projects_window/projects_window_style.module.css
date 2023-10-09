@@ -1,0 +1,23 @@
+.imgContainer {
+  max-width: 20%;
+}
+.imgContainer > img {
+  max-width: 100%;
+  border-radius: 0.25rem;
+  opacity: 0.9;
+  border: 3.2px rgba(226, 232, 240, 0.39) solid;
+}
+
+@media (max-width: 1024px) {
+  .imgContainer {
+    max-width: 25%;
+  }
+}
+@media (max-width: 640px) {
+  .imgContainer {
+    max-width: 200px;
+    padding-top: 1rem;
+  }
+}
+
+/*# sourceMappingURL=projects_window_style.module.css.map */

@@ -3,7 +3,7 @@ import styles from './skills_window_style.module.scss'
 const SkillsWindow = ({nav}: any) => {
    return (
       <section ref={nav}>
-         <div></div> {/* Прилипает */}
+         <div className={`header_paragraph`}><h2>Навыки</h2></div> {/* Прилипает */}
          <div className={`d-flex mw-100 overflow-x-hidden flex-wrap ${styles.skills}`}>
             <span>JavaScript</span>
             <span>TypeScript</span>

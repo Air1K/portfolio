@@ -2,38 +2,13 @@ import React, {useState} from 'react';
 import {Col, Row} from "react-bootstrap";
 import styles from './education_window_style.module.scss'
 import SvgPointer from "./svgPointer";
+import {Link} from "react-router-dom";
+import {editOpacityDiv, resetOpacity} from "../../../../hooks/opacity_hooks";
 
 const EducationWindow = ({nav}: any) => {
-   function editOpacityDiv(event: React.MouseEvent<HTMLDivElement, MouseEvent>) {
-      let sibling: any = event.currentTarget
-      while (sibling.previousSibling) {
-         sibling = sibling.previousSibling
-         sibling.style.opacity = 0.5
-      }
-      sibling = event.currentTarget
-      while (sibling.nextSibling) {
-         sibling = sibling.nextSibling
-         sibling.style.opacity = 0.5
-      }
-   }
-
-   function resetOpacity(event: React.MouseEvent<HTMLDivElement, MouseEvent>) {
-      let sibling: any = event.currentTarget
-      while (sibling.previousSibling) {
-         sibling = sibling.previousSibling
-         sibling.style.opacity = 1
-      }
-      sibling = event.currentTarget
-      while (sibling.nextSibling) {
-         sibling = sibling.nextSibling
-         sibling.style.opacity = 1
-      }
-   }
-
    return (
       <section ref={nav}>
-         <div></div>
-         {/* Прилипает */}
+         <div className={`header_paragraph`}><h2>Образование</h2></div>
          <div className={`position-relative`}>
             <div className={`mb-5 position-relative transition ${styles.row}`}
                  onMouseEnter={editOpacityDiv}
@@ -83,6 +58,10 @@ const EducationWindow = ({nav}: any) => {
                <span className={`${styles.card} transition`}/>
             </div>
          </div>
+         <Link to={'/web'} className={`text_type_3 size_3 transition ${styles.a_resume}`}>
+            Показать подробное резюме
+            <SvgPointer/>
+         </Link>
       </section>
    );
 };

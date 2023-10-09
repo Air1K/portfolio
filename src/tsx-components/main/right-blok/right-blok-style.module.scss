@@ -1,9 +1,13 @@
-.blok{
+.block{
   width: 50%;
   padding: 6rem 0;
-  height: 300vh;
   > section{
     scroll-margin-top: 6rem;
     margin-bottom: 9rem
   }
+}
+@media (max-width: 1024px) {
+  .block > section{
+      margin-bottom: 5rem
+    }
 }
