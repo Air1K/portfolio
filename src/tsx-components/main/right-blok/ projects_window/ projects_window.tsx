@@ -32,7 +32,27 @@ const ProjectsWindow = ({nav}: any) => {
       img: 'https://screenshot-proxy.netlify.app/f_jpg,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/652024e6abf4a300081958ca/screenshot_2023-10-06-15-17-32-0000.png',
       instrumental: ["React", 'TypeScript', 'Framer Motion', 'Redux', 'React Bootstrap', 'React Router'],
       href: 'https://spa-todo-list1928.netlify.app'
-   }]
+   },
+      {
+         header: 'Страны мира',
+         body: 'Данное приложение позволяет пользователю исследовать страны мира с использованием REST API. ' +
+         'Пользователь может просматривать основные сведения о каждой стране, такие как название, столица, население, регион и другие. ' +
+             'Реализована функция ленивой подгрузки, которая позволяет загружать данные по мере прокрутки страницы, обеспечивая удобный и плавный пользовательский опыт.',
+         img: 'https://screenshot-proxy.netlify.app/f_png,fit_cover,s_800x500/https://d33wubrfki0l68.cloudfront.net/66b50383e13e2100082b3534/screenshot_2024-08-08-17-43-33-0000.webp',
+         instrumental: ["React", 'TypeScript', 'Axios', 'Tailwind CSS', 'React Bootstrap', 'React Router', 'Lazy Loading'],
+         href: 'https://timely-conkies-206d24.netlify.app/'
+      },
+      {
+         header: 'Duel Game',
+         body: 'Игра, в которой два героя на прямоугольном поле Canvas сражаются друг с другом. Герои представляют собой круги, которые движутся по прямой вверх и вниз на противоположных сторонах экрана. ' +
+             'Герои отталкиваются от краев поля и курсора мыши, а также стреляют заклинаниями — маленькими шариками, которые исчезают при попадании во врага, засчитывая очки. ' +
+             'Пользователь может кликнуть на героя, чтобы открыть меню, созданное с помощью React, для изменения цвета заклинаний. ' +
+             'Также доступны два ползунка для настройки частоты стрельбы и скорости движения каждого героя. Реализация выполнена на чистом Canvas и React без использования сторонних графических или игровых библиотек.',
+         img: 'https://screenshot-proxy.netlify.app/f_png,fit_cover,s_800x500/https://d33wubrfki0l68.cloudfront.net/66bfa0317a6e140008e65aec/screenshot_2024-08-16-18-54-41-0000.webp',
+         instrumental: ["Canvas", 'React', 'TypeScript', 'SCSS'],
+         href: 'https://duel-game.netlify.app/'
+      }
+   ]
    return (
       <section ref={nav}>
          <div className={'header_paragraph'}><h2>Проекты</h2></div>
