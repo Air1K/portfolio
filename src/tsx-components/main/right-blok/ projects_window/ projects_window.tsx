@@ -12,7 +12,7 @@ const ProjectsWindow = ({ nav }: any) => {
         "Данное приложение позволяет пользователю исследовать страны мира с использованием REST API. " +
         "Пользователь может просматривать основные сведения о каждой стране, такие как название, столица, население, регион и другие. " +
         "Реализована функция ленивой подгрузки, которая позволяет загружать данные по мере прокрутки страницы, обеспечивая удобный и плавный пользовательский опыт.",
-      img: "https://screenshot-proxy.netlify.app/f_png,fit_cover,s_800x500/https://d33wubrfki0l68.cloudfront.net/66b50383e13e2100082b3534/screenshot_2024-08-08-17-43-33-0000.webp",
+      img: "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/66b50383e13e2100082b3534/screenshot_2024-08-08-17-43-33-0000.webp&fit=cover&h=500&q=40&w=800",
       instrumental: [
         "React",
         "TypeScript",
@@ -30,7 +30,7 @@ const ProjectsWindow = ({ nav }: any) => {
         "Данное приложение позволяет пользователю использовать виджет помогающий в создании сообщений. " +
         "Вы можете установить курсор в любой части текста, поле добавить виджет между сообщениями [Кнопка IF THEN ELSE]. В поле IF добавляется любая кнопка [firstName, lastName ...]" +
         "Если при просмотре сообщения в указанную кнопку вписать значение, она отработает как true, иначе false. В поля THEN и ELSE можно вписать что требуется или установить туда новый виджет. Вложенность виджетов не ограничена",
-      img: "https://screenshot-proxy.netlify.app/f_jpg,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/652409fcebe729009b87fdbb/screenshot_2023-10-09-14-11-53-0000.png",
+      img: "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/652409fcebe729009b87fdbb/screenshot_2023-10-09-14-11-53-0000.png&fit=cover&h=500&q=40&w=800",
       instrumental: [
         "React",
         "TypeScript",
@@ -68,7 +68,7 @@ const ProjectsWindow = ({ nav }: any) => {
     {
       header: "Spa Todo",
       body: "Менеджер задач целью разработки которого являлось изучить работу Redux.",
-      img: "https://screenshot-proxy.netlify.app/f_jpg,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/652024e6abf4a300081958ca/screenshot_2023-10-06-15-17-32-0000.png",
+      img: "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/652024e6abf4a300081958ca/screenshot_2023-10-06-15-17-32-0000.png&fit=cover&h=500&q=40&w=800",
       instrumental: [
         "React",
         "TypeScript",
@@ -82,7 +82,7 @@ const ProjectsWindow = ({ nav }: any) => {
     {
       header: "Yandex Scooter",
       body: "Одностраничный сайт с адаптивным дизайном созданный по макету из фигмы, для тренеровки навыков верстальщика.",
-      img: "https://screenshot-proxy.netlify.app/f_jpg,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/6502281f3162fa000803e6a7/screenshot_2023-09-13-21-23-11-0000.png",
+      img: "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/6502281f3162fa000803e6a7/screenshot_2023-09-13-21-23-11-0000.png&fit=cover&h=500&q=40&w=800",
       instrumental: [],
       href: "https://yandex-scuter-task-adaptive.netlify.app",
     },
@@ -93,7 +93,7 @@ const ProjectsWindow = ({ nav }: any) => {
         "Герои отталкиваются от краев поля и курсора мыши, а также стреляют заклинаниями — маленькими шариками, которые исчезают при попадании во врага, засчитывая очки. " +
         "Пользователь может кликнуть на героя, чтобы открыть меню, созданное с помощью React, для изменения цвета заклинаний. " +
         "Также доступны два ползунка для настройки частоты стрельбы и скорости движения каждого героя. Реализация выполнена на чистом Canvas и React без использования сторонних графических или игровых библиотек.",
-      img: "https://screenshot-proxy.netlify.app/f_png,fit_cover,s_800x500/https://d33wubrfki0l68.cloudfront.net/66bfa0317a6e140008e65aec/screenshot_2024-08-16-18-54-41-0000.webp",
+      img: "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/66c0988f017fe90008b80584/screenshot_2024-08-17-12-33-59-0000.webp&fit=cover&h=500&q=40&w=800",
       instrumental: ["Canvas", "React", "TypeScript", "SASS"],
       href: "https://duel-game.netlify.app/",
     },
